@@ -1,0 +1,78 @@
+.card {
+    height: 140px;
+    background: #F9F9F9;
+    border: none;
+    border-radius: 25px;
+    opacity: .5;
+    margin: 12px 0;
+}
+
+.card-content {
+    height: 100%;
+    border-radius: inherit;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.card-content-icon, .card-content-title, .card-content-value {
+    display: flex;
+    align-items: center;
+}
+
+.card-icon {
+    height: 60px;
+    width: 60px;
+    margin-right: 12px;
+}
+
+.card-content-title-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.card-value {
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+}
+
+.card-content-body {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+    .card-name {
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    .card-value {
+        font-weight: bold;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    .card-content {
+        display: flex;
+    }
+
+    .card-content-value {
+        display: flex;
+        align-items: center;
+    }
+
+    .card-content-body {
+        flex-direction: column;
+        justify-content: none;
+    }
+}

@@ -1,0 +1,25 @@
+.logo {
+    margin: 0 20px;
+    height: 64px;
+}
+
+@media (max-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: none !important;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+.navbar {
+    background: white;
+}
