@@ -1,7 +1,8 @@
 import React from 'react';
 
 import Kpi from '../../components/Kpi';
-import PieChart from '../../components/PieChart';
+import PieChart from '../../components/Graficos/PieChart';
+import BarChart from '../../components/Graficos/BarChart';
 
 const Dashboard = () => (
     <>
@@ -13,6 +14,7 @@ const Dashboard = () => (
         </div>
         <div className="row">
             <PieChart/>
+            <BarChart/>
         </div>
     </>
 );
